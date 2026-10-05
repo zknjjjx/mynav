@@ -1,0 +1,12 @@
+name = "mynav"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# KV namespace：部署时创建后把 id 填到这里（或直接用 API 部署）
+[[kv_namespaces]]
+binding = "NAV_KV"
+id = "06da1e68ce564b7a9e2b24601b24afc8"
+
+# 建议在 Cloudflare 后台 (Workers > Settings > Variables) 设置 ADMIN_SECRET
+# [vars]
+# ADMIN_SECRET = "一串随机字符串"
